@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html>
-    <head>
-       <title>Home-Page</title>
-       <link rel="stylesheet" href="./style.css">
-       <!-- metaData section -->
-        <style></style>
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac Ampaire | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
         <nav>
-          <a href="/index.html">Home</a>
-          <a href="/about.html">About Us</a>
-          <a href="/services.html">Services</a>
-          <a href="/contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-        <br>
-        <hr>
-        <section id="Hero">
-            <div>
-                <h1>Welcome to my Portifloi</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe enim fuga esse corporis sit non repudiandae assumenda exercitationem laboriosam? Incidunt?</p>
-           
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="profile-container">
+                <img src="./images/i.jpeg" alt="Isaac" class="profile-img">
             </div>
-            <div>
-                <button>Contact</button>
-                <button>Explore More</button>
-            </div>
+            <h1 class="section-title">Isaac Ampaire</h1>
+            <p style="font-size: 1.2rem; color: #666;">Software Developer & AI Solutions Architect</p>
         </section>
-    </body>
+
+        <div class="card">
+            <h2>Building the Future of Tech</h2>
+            <p>I specialize in creating intelligent software solutions that solve real-world problems. With expertise in Microsoft Dynamics 365, Laravel, and AI integration, I help businesses automate their workflows and make data-driven decisions.</p>
+        </div>
+    </main>
+
     <footer>
-     <p>All Rights Reserved @2026</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2026 Isaac Ampaire</p>
     </footer>
+</body>
 </html>
